@@ -1,0 +1,16 @@
+.footer_nav_elements {
+    /* display: flex;
+    flex: 25%, 25%, 25%, 25%;
+    flex-flow: column wrap;
+    align-items: stretch;
+    justify-self: center; */
+    column-count: 4;
+    padding: 50 px 10% 0;
+    background-color: rgb(235, 235, 235);
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
