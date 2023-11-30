@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="images.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="footer.css">
 
@@ -33,7 +33,10 @@
                     <li class="header_menu_search">
                         <a href="#"><img class="icon_search" src="./Images/icons/search.svg" alt="Search" width="30" height="30"></img></a>
                         <a href="#" class="button_search">ПОШУК</a></li>
-                    <li class="header_menu_lang"><a href="#">UA/EN</a></li>
+                    <div class="header_menu_lang">
+                        <a href="#"><span>UA</span></a>
+                        <a href="#"><span class="header_menu_lang_slash">/</span>EN</a>
+                    </div>
                     <li class="header_menu_exit"><form action="#"><input type="image" name="imagebutton" src="???"> ВХІД</form></li>
                     <li class="header_menu_button"><form action="#"><input type="button" name="ОНЛАЙН-КУРС" value="ОНЛАЙН-КУРС"></form></li>
                 </ul>
@@ -52,10 +55,12 @@
               <a href="#">ШЕФ</a>
               <a href="#">МАГАЗИН</a>
             </div>
-        </nav>
+    </nav>
 
-    <main class="main">
-        <div class="main_content"> Content
+    <div class="container_main_sidebar">
+
+        <main class="main">
+        <div class="main_content"> Main
             <!--
                     <h1>НОВІ РЕЦЕПТИ</h1><hr>-->
             <div class="main_content_block">
@@ -175,14 +180,18 @@
                             <input type="button" name="ПОКАЗАТИ ЩЕ" value="ПОКАЗАТИ ЩЕ">
                         </form>-->
 
-        <sidebar>Sidebar<!--
-                            <h2></h2>
-                    
-                            <ul>
-                                <il></il>
-                            </ul>-->
+
+        </main>
+
+        <sidebar class="sidebar">Sidebar<!--
+        <h2></h2>
+                                
+        <ul>
+            <il></il>
+        </ul>-->
         </sidebar>
-    </main>
+        
+    </div>
 
     <footer class="footer">
         <div class="footer_nav_elements">
