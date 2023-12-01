@@ -4,6 +4,15 @@ main {
   flex-grow: 3;
   align-items: center;
   justify-content: center;
+  height: auto;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  padding: 13px 20px 0px 15px;
+
+  background-color: rgb(235, 244, 217);
+
 }
 
 .main_content {
