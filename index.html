@@ -20,7 +20,16 @@
         - icomoon - як Маша використовує? як шрифті що далі, чи як?
         - якщо хочу використовувати першу кнопку, то як додати, якщо щось забула закачати, чи не підійшло?
         - як і для чого використовувати :root
+        -як дізнатися, який саме шрифт використовується на сторінці в інтернеті (100 200 і тп). 
+            -Чи завантажити одназу всі можливі варіанти, а потім вказувати?
+            -завжди завантажувати шрифти, чи інколи просто лінку достатньо?
+        -якщо шрифт задала, то в середині кнопок окремо додатково задавати?
+        - Що це?>>> <link rel="preload" href="https://klopotenko.com/wp-content/uploads/2020/09/logo.svg" as="image">
+            <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:600,400,500,700" as="font">
+        
     -->
+
+    <!--?? Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S-->
 </head>
 <body>
     <header>
@@ -29,6 +38,14 @@
             <div class="header_left">
                 <a href="#">
                     <img class="logo" src="./Images/logo.svg" alt="logo">
+                </a>
+
+                <a class="header_left_button_ads_link" href="#">
+                    <button class="header_left_button_ads" type="button">
+                    Відключити рекламу
+                    </button> <!--!! in original it's <span>-->
+                    
+                </a>
             </div>
     
             <div class="header_right">
@@ -225,15 +242,18 @@
                             <use href=".#"></use>
                         </svg>
                     </a>
-                    <a class="footer_icon_fb_link">
+                    <a class="footer_icons_link">
                         <svg class="icon_fb">
                             <use href="./Images/icons.svg#icon-facebook-logo-svgrepo-com"></use>
                         </svg>
                     </a>
-                    <a class="icon_YouTube" href="#" alt="YouTube"></a>
-                    <a class="icon_Insta" href="#" alt="Insta"></a>
-                    <a class="icon_Telegram" href="#" alt="Telegram"></a>
-                    <a href="#"><img class="icon_TicToc" src="./Images/Social_Media/tictok-svg.svg" alt="TicTok" width="30" height="30"></img></a>
+                    <a class="footer_icons_link" href="#" alt="YouTube"></a>
+                    <a class="footer_icons_link" href="#" alt="Insta"></a>
+                    <a class="footer_icons_link" href="#" alt="Telegram"></a>
+                    <a class="footer_icons_link" href="#">
+                        <img class="icon_TicToc" src="./Images/Social_Media/tictok-svg.svg" alt="TicTok" width="30" height="30">
+                        </img>
+                    </a>
                 </div>
             </div>
             

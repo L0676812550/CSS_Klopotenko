@@ -1,18 +1,10 @@
-body {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:center;
-    color: black;
-    background: white;
-    height: 100%;
-    border-bottom: 1px solid #cecece;
+@font-face {
+    font-family: Montserrat;
+    src: url(./) format(.woff2);
+}
 
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0px 30px 0px 30px;
+html {
+    font-family: Montserrat sans-serif; /*!! is it right?*/
 }
 
 :root {
@@ -22,16 +14,40 @@ body {
 ul {
     list-style: none;
     color: black;
-    
+
 }
 
 a {
     color: black;
     text-decoration: none;
+    background-color: transparent;
 }
 
 * {
     word-wrap: break-word;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background: white;
+    height: 100%;
+    border-bottom: 1px solid #cecece;
+    /* font-family: Montserrat sans-serif; */
+    line-height: 24px;
+    font-weight: 500;
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0px 30px 0px 30px;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
 }
 
 .container_main_sidebar {
@@ -39,7 +55,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height:auto;
+    height: auto;
     align-items: stretch;
     justify-content: center;
 }

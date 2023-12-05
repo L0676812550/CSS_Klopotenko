@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+.footer_icons_link {
+    height: 41px;
+    width: 15px;
+}
+
 /* .button_ads {
     display: inline-block;
     box-sizing: border-box;
