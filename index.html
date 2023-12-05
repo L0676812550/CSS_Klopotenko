@@ -15,29 +15,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Євген Клопотнеко-кулинарні рецепти від Євгена Клопотнеко</title>
 
-    <!--
-       
+    <!--!! Маша: 
+        - пройтся по всьому червоному в файлах
+        - icomoon - як Маша використовує? як шрифті що далі, чи як?
+        - якщо хочу використовувати першу кнопку, то як додати, якщо щось забула закачати, чи не підійшло?
+        - як і для чого використовувати :root
     -->
 </head>
 <body>
     <header>
-        <div class="header_container">
+        <div class="header_container"> <!--!!Is this <div> unnecessary?-->
             
             <div class="header_left">
                 <a href="#">
-                    <img class="header_left_logo" src="./Images/logo.svg" alt="logo">
+                    <img class="logo" src="./Images/logo.svg" alt="logo">
             </div>
     
             <div class="header_right">
                 <ul class="header_menu">
                     <li class="header_menu_search">
-                        <a href="#"><img class="icon_search" src="./Images/icons/search.svg" alt="Search" width="30" height="30"></img></a>
-                        <a href="#" class="button_search">ПОШУК</a></li>
-                    <div class="header_menu_lang">
-                        <a href="#"><span>UA</span></a>
-                        <a href="#"><span class="header_menu_lang_slash">/</span>EN</a>
-                    </div>
-                    <li class="header_menu_exit"><form action="#"><input type="image" name="imagebutton" src="???"> ВХІД</form></li>
+                        <!-- <svg class="header_menu_search_icon">
+                            <use href="./Images/icons.svg#icon-search">
+                            </use>
+                        </svg> -->
+
+                        <div class="header_menu_search_icon"></div>
+                        <a href="#"><img class="header_menu_search_icon" src="./Images/icons/search.svg" alt="Search"></img></a>
+                        <a href="#" class="button_search">ПОШУК</a>
+                    </li>
+                    
+                    <li class="header_menu_lang">
+                        <a href="#"><p>UA</p></a>
+                        <a href="#"><pu class="header_menu_lang_slash">/</pu>EN</a>
+                    </li>
+                    <li class="header_menu_signin">
+                        <!-- <img class="header_menu_signin_icon" src="./Images/icons/cook.svg" alt="sign_in"> -->
+                        
+                        <svg class="header_menu_signin_icon" width="25" height="25">
+                            <use href="./Images/icons.svg#icon-cook"></use>
+                        </svg>
+                        
+                        <a class="header_menu_signin_link">ВХІД</a>
+                    </li>
                     <li class="header_menu_button"><form action="#"><input type="button" name="ОНЛАЙН-КУРС" value="ОНЛАЙН-КУРС"></form></li>
                 </ul>
             </div>
@@ -190,7 +209,7 @@
             <il></il>
         </ul>-->
         </sidebar>
-        
+
     </div>
 
     <footer class="footer">
@@ -201,10 +220,19 @@
                 <p>ПІДПИСАТИСЯ НА НАС</p>
                 
                 <div class="social_links">
-                    <a class=icon_fb href="#" alt="fb" width="30" height="30"> </a>
-                    <a class=icon_YouTube href="#" alt="YouTube"></a>
-                    <a class=icon_Insta href="#" alt="Insta"></a>
-                    <a class=icon_Telegram href="#" alt="Telegram"></a>
+                    <a href="#">
+                        <svg width="32" height="32">
+                            <use href=".#"></use>
+                        </svg>
+                    </a>
+                    <a class="footer_icon_fb_link">
+                        <svg class="icon_fb">
+                            <use href="./Images/icons.svg#icon-facebook-logo-svgrepo-com"></use>
+                        </svg>
+                    </a>
+                    <a class="icon_YouTube" href="#" alt="YouTube"></a>
+                    <a class="icon_Insta" href="#" alt="Insta"></a>
+                    <a class="icon_Telegram" href="#" alt="Telegram"></a>
                     <a href="#"><img class="icon_TicToc" src="./Images/Social_Media/tictok-svg.svg" alt="TicTok" width="30" height="30"></img></a>
                 </div>
             </div>
@@ -225,7 +253,9 @@
                 1
                 <!-- </a>
                 <a href="#" class="button_ads">Відключити рекламу</a> -->
-                2
+                <button type="button">
+
+                </button>
             </div>
         </div>
         

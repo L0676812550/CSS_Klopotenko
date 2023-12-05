@@ -8,6 +8,15 @@ body {
     background: white;
     height: 100%;
     border-bottom: 1px solid #cecece;
+
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0px 30px 0px 30px;
+}
+
+:root {
+    --color-icons: #c5181d;
 }
 
 ul {
@@ -21,6 +30,9 @@ a {
     text-decoration: none;
 }
 
+* {
+    word-wrap: break-word;
+}
 
 .container_main_sidebar {
     display: flex;
