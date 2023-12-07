@@ -26,7 +26,7 @@
         -якщо шрифт задала, то в середині кнопок окремо додатково задавати?
         - Що це?>>> <link rel="preload" href="https://klopotenko.com/wp-content/uploads/2020/09/logo.svg" as="image">
             <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:600,400,500,700" as="font">
-        
+        -Разом переглянути як складається структура розділів в Клопотенко. Дуже багато вкладеності
     -->
 
     <!--?? Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S-->
@@ -95,11 +95,81 @@
 
     <div class="container_main_sidebar">
 
-        <main class="main">
-        <div class="main_content"> Main
-            <!--
-                    <h1>НОВІ РЕЦЕПТИ</h1><hr>-->
-            <div class="main_content_block">
+    <main>
+        <section class="main_section1">
+            <div class="main-section1-title-container">
+                <h2 class="main-section1-title">
+                    Нові рецепти
+                </h2><br>
+            </div> <!--!!Точно не h1, бо може використовуватись 1 раз?-->
+            <!--!! В оригіналі стоїть <::after></::after> після -->
+            <div class="main-section1-block">
+                <article class="main-section1-article">
+                    <div class="main-section1-img">
+                        <a href="https://klopotenko.com/duzhe-yagidnyj-reczept-vyshnyaku-v-domashnih-umovah/" target="_blank">
+                            <img src="./Images/Food/vyshnyak-z-poltavy-img-530x338.jpg" alt="Як приготувати вишняк">
+                        </a>
+                    </div>
+                    
+                    <div class="main-section1-content">                        
+                        <div class="main-section1-content-link">
+                            <a href="https://klopotenko.com/duzhe-yagidnyj-reczept-vyshnyaku-v-domashnih-umovah/" target="_blank">
+                                    Дуже ягідний. Рецепт вишняку в домашніх умовах
+                            </a>
+                        </div>
+                        
+                        <div class="main-section1-content-time">
+                            <div>
+                                <img class="main-section1-content-time-icon" 
+                                    src="./Images/icomoon_svg/wall-clock-icon.svg">
+                                <p>2 години 10 хвилин+14 годин для настоювання</p>
+                            </div>
+            
+                            <div>
+                                <img class="main-section1-content-time-icon" 
+                                    src="./Images/icomoon_svg/pie-dish-food-icon.svg">
+                                <p>1</p>
+                            </div>
+            
+                            <div>
+                                <img class="main-section1-content-time-icon" 
+                                src="./Images/icomoon_svg/star-empty-icon.svg">
+                                <p>легко</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </article>
+                <article class="main-section1-article">2 фото</article>
+                <article class="main-section1-article">3 відео</article>
+                <article class="main-section1-article">4 відео</article>
+            </div>
+        </section>
+
+        <button>Показати ЩЕ</button>
+
+        <section class="main-section2-what-to-cook">
+            <h2> Що приготувати?</h2>
+            <article> 1
+            </article>
+            <article>2</article>
+            <article>3</article>
+            <article>4</article>
+        </section>
+
+        <section class="main-section3-buy-now">
+            <h2>Купуй зараз</h2>
+            <div колонка 1>
+                <div>Картинка 1</div>
+
+            </div>
+            <div колонка 2></div>
+            <divколонка 3></divк>
+        </section>
+        
+            
+            <!-- <div class="main_content_block">
                 <div class="top">Text</div>
                 <div class="box">1</div>
                 <div class="box">2</div>
@@ -108,10 +178,7 @@
                     <div class="icon svg-icon"></div>
                     <div>text</div>
                 </div>
-            </div>
-
-            <!-- <div class="block"> -->
-            <!-- </div> -->
+            </div> -->
             <!-- <section>
                             
                             <article>
@@ -120,16 +187,6 @@
                                 height="338" 
                                 alt="Як приготувати вишняк"><br> 
                                 <a href="https://klopotenko.com/duzhe-yagidnyj-reczept-vyshnyaku-v-domashnih-umovah/">Дуже ягідний. Рецепт вишняку в домашніх умовах</a>
-                    
-                            <div>
-                                    <img src="./Images/wall-clock-icon.svg" width="25px" height="25px" viewBox="0 0 25 25"> alt=""
-                                    <p>2 години 10 хвилин+14 годин для настоювання</p>
-                                </div>
-                                
-                                <div>
-                                    <img src="./Images/pie-dish-food-icon.svg" width="25px" height="25px" viewBox="0 0 25 25">
-                                    <p>1</p>        
-                                </div>  
                                 
                                 <div>
                                     <img src="./Images/star-empty-icon.svg" width="25px" height="25px" viewBox="0 0 25 25">

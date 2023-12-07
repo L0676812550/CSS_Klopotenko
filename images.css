@@ -1,3 +1,5 @@
+/* Header */
+
 .logo {
     height: auto;
     max-height: 75px;
@@ -26,6 +28,20 @@
     width: 25px;
     vertical-align: middle;
 } */
+
+/*Main*/
+
+.main-section1-img {
+   width: 530px;
+   height: 338px;
+}
+
+.main-section1-content-time-icon {
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    color: #909090;
+}
 
 /* Footer */
 

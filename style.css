@@ -1,10 +1,12 @@
 @font-face {
     font-family: Montserrat;
-    src: url(./) format(.woff2);
+    src: url(./Fonts/) format(.woff2);
 }
 
 html {
     font-family: Montserrat sans-serif; /*!! is it right?*/
+    padding: 0;
+    margin: 0;
 }
 
 :root {
@@ -28,26 +30,29 @@ a {
 }
 
 body {
-    display: flex;
+    display: block;
+    margin: 0px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
     color: black;
     background: white;
     height: 100%;
     border-bottom: 1px solid #cecece;
-    /* font-family: Montserrat sans-serif; */
+    font-family: Montserrat sans-serif;
     line-height: 24px;
     font-weight: 500;
 
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin: 0px 30px 0px 30px;
 
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
+
 }
 
 .container_main_sidebar {
@@ -58,6 +63,7 @@ body {
     height: auto;
     align-items: stretch;
     justify-content: center;
+    padding: 17px 0px 22px 0px;
 }
 
 /* !!!!!!CHECK---------------------------------- */
