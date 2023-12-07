@@ -27,6 +27,8 @@
         - Що це?>>> <link rel="preload" href="https://klopotenko.com/wp-content/uploads/2020/09/logo.svg" as="image">
             <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:600,400,500,700" as="font">
         -Разом переглянути як складається структура розділів в Клопотенко. Дуже багато вкладеності
+        -комбіниція клавіш - прибрати зайві пробіли?
+        - десь відступи стали 2 десь 4. Як зробити однаковими
     -->
 
     <!--?? Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S-->
@@ -81,16 +83,24 @@
         </div>
     </header>
         
-    <nav class="navbar">
-            <div class="navbar_container">
-              <a href="#">РЕЦЕПТИ З ГАРБУЗА</a> 
-              <a href="#">УКРАЇНСЬКА КУХНЯ</a>
-              <a href="#">РЕЦЕПТИ</a>
-              <a href="#">ПОРАДИ</a>
-              <a href="#">НОВИНИ</a>
-              <a href="#">ШЕФ</a>
-              <a href="#">МАГАЗИН</a>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-menu-left"> <!--!! я робила через <а>, оригінал <ul> -->
+                <a href="#">РЕЦЕПТИ З ГАРБУЗА</a> 
+                <a href="#">УКРАЇНСЬКА КУХНЯ</a>
+                <a href="#">РЕЦЕПТИ</a>
+                <a href="#">ПОРАДИ</a>
+                <a href="#">НОВИНИ</a>
+                <a href="#">ШЕФ</a>
+                <a href="#">МАГАЗИН</a>
             </div>
+
+            <div class="nav-menu-right">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
 
     <div class="container_main_sidebar">
