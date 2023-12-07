@@ -1,23 +1,44 @@
 header {
-    width: 100%;
+    /* width: 100%;
     height: inherit;
-    font-size: 10px;
+    font-size: 10px; */
     border-bottom: 1px solid #cecece;
-    padding: 0px;
+    /* padding: 0px; */
 }
 
 .header_container {
     width: 100%;
-    height: inherit;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto; /*! у них виходить по 30px справа і зліва, у мене 0 і -30*/
+    margin-left: auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+
+    /* display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; */ /*!! є в них, але в мене все їде*/
+
+    /* height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; */
 }
 
 .header_left {
-    display: flex;
-    flex-grow: 1;
+    padding: 0 14px;
+    position: relative;
+    display: flex !important;
+        /* flex: 0 0 41.666667%;
+        max-width: 41.666667%; */ /*!для чого це?*/
+    /* width: 100%;
+    min-height: 1px; *//*!для чого це?*/
+
+    flex-grow: 1; /*! Do I need it?*/
 }
 
 /* .header_left_logo {
@@ -56,14 +77,16 @@ header {
     text-decoration: none; */
     }
 
-    .header_right {
-        display: flex;
-        flex-grow: 1;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-between;
+.header_right {
+    display: flex !important;
+    flex: 0 0 50%;
+    /* flex-grow: 1; */
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
         /* flex-flow: row nowrap; */
-    }
+    padding: 0 14px 0 0;
+}
 
     .header_menu {
         list-style-type: none;
