@@ -1,60 +1,59 @@
-.footer_nav_elements {
-    /* display: flex;
-    flex: 25%, 25%, 25%, 25%;
-    flex-flow: column wrap;
-    align-items: stretch;
-    justify-self: center; */
-    column-count: 4;
-    padding: 50 px 10% 0;
-    background-color: rgb(235, 235, 235);
-}
-
-.nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer_icons_link {
-    height: 41px;
-    width: 15px;
-}
-
-/* .button_ads {
-    display: inline-block;
-    box-sizing: border-box;
-
-    /* font-family: ; - Montserrat,sans-se -ЗАВАНТАЖИТИ */
-    padding: 0px 8px;
-    margin: 0px 10px;
-    font-size: 18px;
-    font-weight: 500;
-    ;
-    line-height: 24px;
-    overflow-wrap: break-word;
-    text-align: center;
-    text-decoration-color: rgb (197, 24, 29);
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: auto;
-    text-size-adjust: 100%;
-    cursor: pointer;
-    border: 2px solid rgb(9, 75, 9);
-    color: white;
-    background-color: rgb(9, 75, 9);
-    transition: background-color 0.3s, color 0.3s;
-} */
-
 /* !! CHECK*/
 
 footer {
-    width: 100%;
-    height: auto;
-    border: 1px solid rgb(208, 208, 208);
-    background-color: #f5f5f5;
-    padding: 50 px 10% 0;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(208, 208, 208);
+  background-color: #f5f5f5;
+  padding: 50 px 10% 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.footer_nav_elements {
+  /* display: flex;
+  flex: 25%, 25%, 25%, 25%;
+  flex-flow: column wrap;
+  align-items: stretch;
+  justify-self: center; */
+  column-count: 4;
+  padding: 50 px 10% 0;
+  background-color: rgb(235, 235, 235);
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_icons_link {
+  height: 41px;
+  width: 15px;
+}
+
+/* .button_ads {
+display: inline-block;
+box-sizing: border-box;
+
+font-family: ; - Montserrat,sans-se -ЗАВАНТАЖИТИ
+padding: 0px 8px;
+margin: 0px 10px;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+overflow-wrap: break-word;
+text-align: center;
+text-decoration-color: rgb (197, 24, 29);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-decoration-thickness: auto;
+text-size-adjust: 100%;
+cursor: pointer;
+border: 2px solid rgb(9, 75, 9);
+color: white;
+background-color: rgb(9, 75, 9);
+transition: background-color 0.3s, color 0.3s;
+} */

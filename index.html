@@ -16,26 +16,16 @@
     <title>Євген Клопотнеко-кулинарні рецепти від Євгена Клопотнеко</title>
 
     <!--!! Маша: 
-        - пройтся по всьому червоному в файлах
-        - icomoon - як Маша використовує? як шрифті що далі, чи як?
-        - якщо хочу використовувати першу кнопку, то як додати, якщо щось забула закачати, чи не підійшло?
-        - як і для чого використовувати :root
-        -як дізнатися, який саме шрифт використовується на сторінці в інтернеті (100 200 і тп). 
-            -Чи завантажити одназу всі можливі варіанти, а потім вказувати?
-            -завжди завантажувати шрифти, чи інколи просто лінку достатньо?
-        -якщо шрифт задала, то в середині кнопок окремо додатково задавати?
-        - Що це?>>> <link rel="preload" href="https://klopotenko.com/wp-content/uploads/2020/09/logo.svg" as="image">
-            <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:600,400,500,700" as="font">
-        -Разом переглянути як складається структура розділів в Клопотенко. Дуже багато вкладеності
-        -комбіниція клавіш - прибрати зайві пробіли?
-        - десь відступи стали 2 десь 4. Як зробити однаковими
+    :root
+    <link rel="preload" href="" as="image">
+    Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S
+    
+    
     -->
-
-    <!--?? Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S-->
 </head>
 <body>
     <header>
-        <div class="header_container"> <!--!!Is this <div> unnecessary?-->
+        <div class="header_container">
             
             <div class="header_left">
                 <a href="#">
@@ -45,19 +35,14 @@
                 <a class="header_left_button_ads_link" href="#">
                     <button class="header_left_button_ads" type="button">
                     Відключити рекламу
-                    </button> <!--!! in original it's <span>-->
+                    </button>
                     
                 </a>
             </div>
     
             <div class="header_right">
-                <ul class="header_menu">
+                <ul class="header-right-menu">
                     <li class="header_menu_search">
-                        <!-- <svg class="header_menu_search_icon">
-                            <use href="./Images/icons.svg#icon-search">
-                            </use>
-                        </svg> -->
-
                         <div class="header_menu_search_icon"></div>
                         <a href="#"><img class="header_menu_search_icon" src="./Images/icons/search.svg" alt="Search"></img></a>
                         <a href="#" class="button_search">ПОШУК</a>
@@ -85,7 +70,7 @@
         
     <nav>
         <div class="nav-container">
-            <div class="nav-menu-left"> <!--!! я робила через <а>, оригінал <ul> -->
+            <div class="nav-menu-left">
                 <a href="#">РЕЦЕПТИ З ГАРБУЗА</a> 
                 <a href="#">УКРАЇНСЬКА КУХНЯ</a>
                 <a href="#">РЕЦЕПТИ</a>
@@ -111,8 +96,7 @@
                 <h2 class="main-section1-title">
                     Нові рецепти
                 </h2><br>
-            </div> <!--!!Точно не h1, бо може використовуватись 1 раз?-->
-            <!--!! В оригіналі стоїть <::after></::after> після -->
+            </div>
             <div class="main-section1-block">
                 <article class="main-section1-article">
                     <div class="main-section1-img">
@@ -347,6 +331,5 @@
         </div>
         
     </footer>
-
 </body>
 </html>

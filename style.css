@@ -1,87 +1,86 @@
+/* !!!!!!CHECK---------------------------------- */
+/* TODO */
+/* ??? */
+
 @font-face {
-    font-family: Montserrat;
-    src: url(./Fonts/) format(.woff2);
+  font-family: "Montserrat";
+  src: url(./Fonts/) format("woff2");
 }
 
-html {
-    font-family: Montserrat sans-serif; /*!! is it right?*/
-    padding: 0;
-    margin: 0;
+body {
+  font-family: Montserrat sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 :root {
-    --color-icons: #c5181d;
+  --color-icons: #c5181d;
 }
 
 ul {
-    list-style: none;
-    color: black;
+  list-style: none;
+  color: black;
+  margin: 0;
 
 }
 
 a {
-    
-    font-family: "Montserrat", Sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 500;
-    color: black;
-    text-transform: uppercase;
-    font-style: normal;
+  
+  font-family: "Montserrat", Sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  font-style: normal;
 
-    text-decoration: none;
-    background-color: transparent;
-    padding: 29px 15px 29px;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 29px 15px 29px;
 }
 
 * {
-    word-wrap: break-word;
-    box-sizing: inherit;
+  word-wrap: break-word;
+  box-sizing: inherit;
 }
 
 body {
-    display: block;
-    margin: 0px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: block;
+  margin: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
-    font-family: "Montserrat", Sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500;
-    color: black;
-    background: white;
-    height: 100%;
-    border-bottom: 1px solid #cecece;
-    font-family: Montserrat sans-serif;
-    line-height: 24px;
-    font-weight: 500;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: black;
+  background: white;
+  height: 100%;
+  border-bottom: 1px solid #cecece;
+  font-family: Montserrat sans-serif;
+  line-height: 24px;
+  font-weight: 500;
 
-    width: 100%;
-    /* margin: 0px 30px 0px 30px; */
+  width: 100%;
+  /* margin: 0px 30px 0px 30px; */
 
 
 }
 
 .container_main_sidebar {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    align-items: stretch;
-    justify-content: center;
-    padding: 17px 0px 22px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  justify-content: center;
+  padding: 17px 0px 22px 0px;
 }
 
-/* !!!!!!CHECK---------------------------------- */
-/* TODO */
-/* ??? */
-
-
-
 .bordered {
-    border-left: 2px;
+  border-left: 2px;
 }
