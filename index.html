@@ -19,6 +19,8 @@
     :root
     <link rel="preload" href="" as="image">
     Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S
+
+    - width: 100px; height: 100px; - чи можна задати це однією функцією, щоб не писати 2 слова?
     
     
     -->
@@ -26,42 +28,48 @@
 <body>
     <header>
         <div class="header_container">
-            
             <div class="header_left">
                 <a href="#">
                     <img class="logo" src="./Images/logo.svg" alt="logo">
                 </a>
-
-                <a class="header_left_button_ads_link" href="#">
-                    <button class="header_left_button_ads" type="button">
-                    Відключити рекламу
-                    </button>
-                    
-                </a>
+                
+                <button class="header_left_button_ads" type="button">
+                    <a class="header_left_button_ads_link" href="#">
+                      <span class="header_left_button_ads_title">Відключити рекламу</span>
+                    </a>
+                  </button>
             </div>
     
             <div class="header_right">
                 <ul class="header-right-menu">
                     <li class="header_menu_search">
-                        <div class="header_menu_search_icon"></div>
-                        <a href="#"><img class="header_menu_search_icon" src="./Images/icons/search.svg" alt="Search"></img></a>
-                        <a href="#" class="button_search">ПОШУК</a>
+                        <div class="header_menu_search_icon"></div> 
+                        <!-- <a href="#"><img class="header_menu_search_icon" src="./Images/icons/search.svg" alt="Search"></img></a> -->
+                        <a href="#" class="header_menu_search-button_search">ПОШУК</a>
                     </li>
                     
                     <li class="header_menu_lang">
-                        <a href="#"><p>UA</p></a>
-                        <a href="#"><pu class="header_menu_lang_slash">/</pu>EN</a>
+                        <a href="#"><span class="header-menu-lang-lang">UA</span></a>
+                        <a href="#"><span class="header-menu-lang-lang header-menu-lang-EN">EN</span></a>
                     </li>
                     <li class="header_menu_signin">
                         <!-- <img class="header_menu_signin_icon" src="./Images/icons/cook.svg" alt="sign_in"> -->
-                        
+<!--                         
                         <svg class="header_menu_signin_icon" width="25" height="25">
                             <use href="./Images/icons.svg#icon-cook"></use>
-                        </svg>
+                        </svg> --> 
                         
                         <a class="header_menu_signin_link">ВХІД</a>
                     </li>
-                    <li class="header_menu_button"><form action="#"><input type="button" name="ОНЛАЙН-КУРС" value="ОНЛАЙН-КУРС"></form></li>
+                    <li class="header_menu_button">
+                        <button class="header_menu_button-curs" type="button">
+                          <a href="#">
+                          <span class="header-titles">
+                            онлайн-курс
+                          </span>
+                        </a>
+                        </button>
+                    </li>
                 </ul>
             </div>
 
@@ -81,9 +89,9 @@
             </div>
 
             <div class="nav-menu-right">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="nav-menu-right-strip"></span>
+                <span class="nav-menu-right-strip"></span>
+                <span class="nav-menu-right-strip"></span>
             </div>
         </div>
     </nav>

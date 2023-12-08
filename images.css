@@ -1,22 +1,21 @@
 /*! Header */
 
 .logo {
-  height: auto;
-  max-height: 75px;
-  padding: 8px 0 8px;
+  height: 31px;
+  /* max-height: 75px; */
+  padding: 6px 0;
   max-width: 100%;
   border: 0;
   vertical-align: middle;
   overflow-clip-margin: content-box;
-  /* box-sizing: inherit; */
 }
 
 .header_menu_search_icon {
   width: 20px;
   height: 20px;
   fill: #c5181d;
+  background: url(./Images/icomoon_svg/search.svg) no-repeat;
 }
-
 
 /* .button_search::before {
   width: 30px;

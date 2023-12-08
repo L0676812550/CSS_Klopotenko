@@ -28,7 +28,7 @@ nav {
   list-style: none; */ /*! якщо включаю, все пливе*/
 }
 
-span {
+.nav-menu-right-strip {
   display: block;
   width: 30px;
   height: 30px;
