@@ -33,7 +33,7 @@ header {
   padding: 0;
   position: relative;
   display: flex !important;
-  
+  align-content: center;
   flex-grow: 1; /*! Do I need it?*/
 }
 
@@ -44,7 +44,7 @@ header {
 .header_left_button_ads {
   box-sizing: inherit;
   word-wrap: break-word;
-  padding: 12px 24px;
+  padding: 7px 24px;
   margin-left: 25px;
   /* font-size: 11px;
   font-weight: 400;
@@ -60,7 +60,7 @@ header {
   word-wrap: break-word; */
   /* padding: 12px 24px;
   margin-left: 25px; */
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
   background: #116b4b;
@@ -131,8 +131,11 @@ text-decoration: none; */
 
 }
 
-  /* .header_menu_search {
-} */
+.header_menu_search {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 .header_menu_search-button_search {
 /* box-sizing: border-box;
