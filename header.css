@@ -105,10 +105,7 @@ text-decoration: none; */
   /* list-style-type: none; dunmark the list */
   padding: 0 14px 0 0;
   margin: 0;
-  /* margin-bottom: 0; */
-  /* width: 100%; */
-  /* height: inherit; */
-  /* flex-grow: 1; */
+  margin-right: -18px;
   }
 
 .header-menu li {

@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Montserrat";
-  src: url(./Fonts/) format("woff2");
+  src: url(./Fonts/montserrat-v26-latin/montserrat-v26-latin-500.woff2) format("woff2");
 }
 
 body {
-  font-family: Montserrat sans-serif;
+  font-family: "Montserrat" sans-serif;
   padding: 0;
   margin: 0;
 
@@ -40,19 +40,7 @@ ul {
   margin: 0;
 }
 
-a {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 500;
-  color: black;
-  text-transform: uppercase;
-  font-style: normal;
 
-  text-decoration: none;
-  background-color: transparent;
-  /* padding: 29px 15px 29px; */ /*! use it, but in another tag*/
-}
 
 * {
   word-wrap: break-word;
