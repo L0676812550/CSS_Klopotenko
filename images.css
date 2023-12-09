@@ -1,4 +1,4 @@
-/*! Header */
+/*TODO Header */
 
 .logo {
   height: 31px;
@@ -18,24 +18,21 @@
   /* background-position: center; */
 }
 
-.svg-icon {
+.header_menu_signin_icon {
+  height: 25px;
+  width: 25px;
+  background-image: url(./Images/icomoon_svg/cook.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* .svg-icon {
   background-image: url('./envelope.svg');
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
-/* .button_search::before {
-  width: 30px;
-  height: 30px;
-} */
-
-/* .header_menu_signin_icon {
-  height: 25px;
-  width: 25px;
-  vertical-align: middle;
-} */
-
-/*! Main*/
+/*TODO Main*/
 
 .main-section1-img {
   width: 530px;
@@ -49,7 +46,7 @@
   color: #909090;
 }
 
-/*! Footer */
+/*TODO Footer */
 
 .icon_fb {
   background-image: url('./Images/Social_Media/facebook-logo-svgrepo-com.svg');
