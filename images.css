@@ -51,16 +51,18 @@
   background-image: url(./Images/icomoon_svg/wall-clock-icon.svg);
   width: 25px;
   height: 25px;
+  margin-left: 10px;
 }
 
 .main-section1-content-time-icon-food {
   background-image: url(./Images/icomoon_svg/pie-dish-food-icon.svg);
   width: 25px;
   height: 25px;
+  border left: ;
 }
 
 .main-section1-content-time-icon-star {
-  background-image: url(./Images/icomoon_svg/wall-clock-icon.svg);
+  background-image: url(./Images/icomoon_svg/food.svg);
   width: 25px;
   height: 25px;
 } /*!іконка "зірка" прозора, використала іншу для прикладу*/
