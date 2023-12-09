@@ -22,7 +22,7 @@ nav {
   padding-left: 15px;
 }
 
-a {
+.nav-menu-left-link {
   font-size: 12px;
   line-height: 26px;
   font-weight: 500;

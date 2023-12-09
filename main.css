@@ -9,19 +9,19 @@ main {
   position: relative;
   box-sizing: border-box;
   word-wrap: break-word;
-  padding: 13px 20px 0px 15px;
+  padding: 13px 20px 0px 50px;
 
-  background-color: rgb(235, 244, 217);
+  /* background-color: rgb(235, 244, 217); */
 }
 
 .main_section1 {
   width: 100%;
 
-  background-color: rgb(165, 242, 198);
+  /* background-color: rgb(165, 242, 198); */
 }
 
 .main-section1-title-container {
-  margin: 60px 0px 55px 0px;
+  margin: 60px 0px 35px 0px;
   display: inline-block;
 }
 
@@ -54,8 +54,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  background-color: rgb(221, 135, 203);
+  /* background-color: rgb(221, 135, 203); */
 
 }
 
