@@ -35,8 +35,9 @@
 /*TODO Main*/
 
 .main-section1-img {
-  width: 530px;
-  height: 338px;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .main-section1-content-time-icon {
@@ -45,6 +46,24 @@
   height: 25px;
   color: #909090;
 }
+
+.main-section1-content-time-icon-clock {
+  background-image: url(./Images/icomoon_svg/wall-clock-icon.svg);
+  width: 25px;
+  height: 25px;
+}
+
+.main-section1-content-time-icon-food {
+  background-image: url(./Images/icomoon_svg/pie-dish-food-icon.svg);
+  width: 25px;
+  height: 25px;
+}
+
+.main-section1-content-time-icon-star {
+  background-image: url(./Images/icomoon_svg/wall-clock-icon.svg);
+  width: 25px;
+  height: 25px;
+} /*!іконка "зірка" прозора, використала іншу для прикладу*/
 
 /*TODO Footer */
 

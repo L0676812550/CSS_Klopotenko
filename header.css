@@ -113,13 +113,14 @@ text-decoration: none; */
   margin: 0;
 }
 
-.header-menu li a {
-  display: inline-block;
-  opacity: 0.6;
+/* .header-menu li a { */
+.header_menu_links {
   text-decoration: none;
   padding: 10px;
-  transition: all .07s ease-in-out;
-  /*the color changes smoothly when hovering */
+  color: #000;
+  transition: all .07s ease-in-out; /*!the color changes smoothly when hovering */
+    /* display: inline-block;
+  opacity: 0.6;*/
 }
 
 .header-menu li a:hover {
