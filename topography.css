@@ -1,0 +1,16 @@
+/* Block3 */
+
+.main-section3-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  overflow-wrap: break-word;
+}
+
+.main-section3-price {
+  color: #C5181D;
+  font-size: 16px;
+  font-weight: 600;
+}
