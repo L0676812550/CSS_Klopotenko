@@ -119,6 +119,16 @@
 
 /* Block3 */
 
+.main-section3-pic1,
+.main-section3-pic2,
+.main-section3-pic3,
+.main-section3-pic4,
+.main-section3-pic5,
+.main-section3-pic6 {
+  max-width: 100%; /* Зменшити розмір відповідно до ширини батьківського контейнера */
+  height: auto; /* Забезпечити пропорції */
+}
+
 .main-section3-pic1 {
   height: auto;
   max-width: 100%;

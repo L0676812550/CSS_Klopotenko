@@ -256,19 +256,32 @@ main {
 /* Block2-End */
 
 .main-section1-title-buy-now {
-
+  margin-bottom: 30px;
+  display: inline;
 }
 
 /* Block3 */
 
+.main-section3-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  /* grid-gap: 10px; */
+}
+
 .main-section3-item {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   justify-content: flex-start;
   align-items: center;
+  height: auto;
+  margin-top: 71px;
+
+  /* Grid */
+  padding: 0 20px 0 0;
+  text-align: center;
 }
 
 
