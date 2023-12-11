@@ -36,10 +36,6 @@ main {
   display: block;
   text-align: left;
   padding: 16px;
-
-  box-sizing: border-box;
-  display: block;
-  text-align: left;
 }
 
 .main-section1-title::after {
@@ -185,11 +181,10 @@ main {
   text-decoration: none;
 }
 
-/* Block 2 */
+/* Block 1-End */
 .main-section2-what-to-cook-title {
   border-bottom: 3px solid black;
-  margin-top: 85px;
-  margin-bottom: 50px;
+  margin: 75px 200px 50px 250px;
   width: 500px;
   text-align: center;
 }
@@ -198,6 +193,83 @@ main {
   display: none;
 }
 
+/* Block 2 */
+
+.main-section2-container { 
+  /* box-sizing: border-box; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-section2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0px 30px 0 0;
+  flex: 1;
+  padding: 0 0 0 40px;
+  align-content: flex-start;
+}
+
+.main-section2-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-section2-list-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.main-section2-list-link {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.main-section2-list-link::after {
+  
+}
+
+.underline {
+  box-sizing: border-box;
+  border-bottom: 1px solid #cecece;
+  padding: 0 80px 0 0;
+  margin-left: 20px;
+  width: 100%;
+}
+
+/* Block2-End */
+
+.main-section1-title-buy-now {
+
+}
+
+/* Block3 */
+
+.main-section3-item {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
 
 /*!Check*/
 

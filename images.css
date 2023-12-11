@@ -67,6 +67,63 @@
   height: 25px;
 } /*!іконка "зірка" прозора, використала іншу для прикладу*/
 
+/* Block2 */
+
+.main-section2-list-picture1 {
+  background-image: url(./Images/icons/small/salad-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.main-section2-list-picture2 {
+  background-image: url(./Images/icons/small/second-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.main-section2-list-picture3 {
+  background-image: url(./Images/icons/small/group.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.main-section2-list-picture4 {
+  background-image: url(./Images/icons/small/ukrainian-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.main-section2-list-picture5 {
+  background-image: url(./Images/icons/small/lunch-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+.main-section2-list-picture6 {
+  background-image: url(./Images/icons/small/bakery-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+}
+
+/* Block3 */
+
+.main-section3-pic1 {
+  height: auto;
+  max-width: 100%;
+}
+
 /*TODO Footer */
 
 .icon_fb {
