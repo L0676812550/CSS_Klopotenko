@@ -5,35 +5,37 @@ main {
   align-items: center;
   justify-content: center;
   height: auto;
+  width: 73.5%;
   margin: 0;
   position: relative;
   box-sizing: border-box;
   word-wrap: break-word;
-  padding: 13px 20px 0px 50px;
-
-  /* background-color: rgb(235, 244, 217); */
+  padding: 13px 30px 0px 30px;
 }
+
+/* Block 1 */
 
 .main_section1 {
   width: 100%;
-
-  /* background-color: rgb(165, 242, 198); */
 }
 
 .main-section1-title-container {
-  margin: 60px 0px 35px 0px;
+  margin: 22px 0px 35px 0px;
   display: inline-block;
 }
 
 .main-section1-title {
-  font-family: "Montserrat", Sans-serif;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 29px;
+  font-weight: 600;
   text-transform: uppercase;
-  line-height: 34px;
+  line-height: 35px;
   color: #111111;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   position: relative;
+  box-sizing: border-box;
+  display: block;
+  text-align: left;
+  padding: 16px;
 
   box-sizing: border-box;
   display: block;
@@ -43,10 +45,10 @@ main {
 .main-section1-title::after {
   content: '';
   border-bottom: 6px solid rgba(197, 24, 29, 0.6);
-  width: 105%;
+  width: 93%;
   position: absolute;
-  left: 0;
-  bottom: 4px;
+  left: 15px;
+  bottom: 20px;
 }
 
 .main-section1-block {
@@ -63,7 +65,7 @@ main {
   box-sizing: border-box;
   width: 50%;
   flex: 0 0 50%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 0 15px;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -77,8 +79,8 @@ main {
   padding: 15px 30px;
   text-align: center;
   position: relative;
-  box-sizing: border-box;
   display: inline-block;
+  width: 100%;
 }
 
 .main-section1-content-title {
@@ -139,7 +141,7 @@ main {
 }
 
 .main-section1-content-time-icon-star::before {
- content: '';
+  content: '';
   position: relative;
   display: block;
   height: 40px;
@@ -147,6 +149,55 @@ main {
   right: 17px;
   top: -5px;
 }
+
+.video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.video::after {
+  content: url(./Images/Food/For_video.jpeg);
+  position: absolute;
+  display: block;
+  top: 45%;
+  left: 45%;
+  z-index: 2;
+}
+
+/*Button-Show More */
+
+.button-main-show-more {
+  width: 190px;
+  height: 45px;
+  background-color: rgb(17, 107, 75);
+  border: none;
+}
+
+.button-main-show-more-title {
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button-main-show-more-link {
+  text-decoration: none;
+}
+
+/* Block 2 */
+.main-section2-what-to-cook-title {
+  border-bottom: 3px solid black;
+  margin-top: 85px;
+  margin-bottom: 50px;
+  width: 500px;
+  text-align: center;
+}
+
+.main-section2-what-to-cook-title::after {
+  display: none;
+}
+
 
 /*!Check*/
 
