@@ -134,6 +134,25 @@
   max-width: 100%;
 }
 
+/*TODO Sidebar */
+
+.sidebar-book-pic {
+  width: 100%;
+  /* display: inline-block;
+  box-sizing: border-box; */
+  height: auto;
+  padding: 20px 20px 0 0;
+}
+
+.sidebar-recomendations-1-pic {
+  width: 125px;
+  display: inline-block;
+  box-sizing: border-box;
+  /* height: auto; */
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
 /*TODO Footer */
 
 .icon_fb {
