@@ -25,6 +25,7 @@
   text-align: center;
   padding: 0 0 10px 0;
   margin: 0px;
+  letter-spacing: 1.2px;
 }
 
 .sidebar-book-button-link {
@@ -38,9 +39,9 @@
   color: white;
 }
 
-  /* Recomendations */
+  /* Recommendations */
 
-.sidebar-recomendations-title {
+.sidebar-recommendations-title {
   display: block;
   font-size: 15px;
   font-weight: 500;
@@ -49,17 +50,40 @@
   border: 1px solid black;
   padding: 20px 30px;
   margin: 30px 0;
+  letter-spacing: 1.2px;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
 }
 
-.sidebar-recomendations-1-link {
+.sidebar-recommendations-1-link {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
 }
 
-.footer-copyright {
-  font-size: 12px;
+.sidebar-button-link {
+  display: block;
+  border: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  padding: 15px 0;
+}
+/* Footer */
+.footer-link {
+  font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.footer-copyright {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
   text-align: center;
 }

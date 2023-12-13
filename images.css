@@ -144,7 +144,7 @@
   padding: 20px 20px 0 0;
 }
 
-.sidebar-recomendations-1-pic {
+.sidebar-recommendations-1-img {
   width: 125px;
   display: inline-block;
   box-sizing: border-box;
@@ -217,4 +217,10 @@
 .icon_TicToc {
   width: 30px;
   height: 30px;
+}
+
+.footer-logo-curcle {
+  max-width: 120px;
+  padding-bottom: 20px;
+  height: auto;
 }
