@@ -39,8 +39,6 @@
   color: white;
 }
 
-  /* Recommendations */
-
 .sidebar-recommendations-title {
   display: block;
   font-size: 15px;
@@ -71,18 +69,42 @@
   letter-spacing: 1.2px;
   padding: 15px 0;
 }
-/* Footer */
+
+/*Footer */
+
 .footer-link {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 40px;
   text-transform: uppercase;
   text-align: center;
-  padding: 35px 0;
+  padding: 25px 0;
+}
+
+.footer-button-link {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  /* padding: 15px 0; */
+  color: white;
+}
+
+.copyright1{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+}
+
+.footer-copyright-link {
+  text-decoration: underline;
+  padding: 10px 0;
 }
 
 .footer-copyright {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 25px;
   text-align: center;

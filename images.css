@@ -155,6 +155,12 @@
 
 /*TODO Footer */
 
+.footer-social-links-img {
+  width: 30px;
+  height: 30px;
+
+}
+
 .icon_fb {
   background-image: url('./Images/Social_Media/facebook-logo-svgrepo-com.svg');
   background-size: contain;
