@@ -30,7 +30,6 @@ nav {
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
-  /* padding: 29px 15px 29px; */ /*! use it, but in another tag*/
 }
 
 .nav-menu-left-link:hover {

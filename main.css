@@ -1,11 +1,10 @@
 main {
   display: flex;
   flex-direction: column;
-  flex-grow: 3;
   align-items: center;
   justify-content: center;
   height: auto;
-  width: 73.5%;
+  /* width: 73.5%; */
   margin: 0;
   position: relative;
   box-sizing: border-box;
