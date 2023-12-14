@@ -67,6 +67,7 @@ main {
   align-content: center;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .main-section1-content {
