@@ -1,5 +1,7 @@
 nav {
   border-bottom: 1px solid #cecece;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .nav-container {
@@ -8,8 +10,8 @@ nav {
   justify-content: space-between !important;
   width: 100%;
   padding: 29px 0;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
   
 }
 
@@ -47,3 +49,4 @@ nav {
   background-color: #c5181d;
   margin-bottom: 5px;
 }
+

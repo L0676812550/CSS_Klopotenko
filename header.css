@@ -1,5 +1,7 @@
 header {
   border-bottom: 1px solid #cecece;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .header_container {
@@ -162,3 +164,4 @@ header {
   background-color: #116B4B;
   color: #cecece; /*! колір кнопки змінюється, а тексту- ні*/
 }
+
