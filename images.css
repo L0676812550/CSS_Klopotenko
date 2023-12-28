@@ -7,6 +7,34 @@
   border: 0;
   vertical-align: middle;
   overflow-clip-margin: content-box;
+
+  position: relative;
+
+  animation-name: main-logo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-fill-mode: none;
+}
+
+.logo-animation:hover .logo {
+  animation-play-state: paused;
+}
+
+@keyframes main-logo {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    left: 100px;
+    opacity: 1;
+  }
 }
 
 .header_menu_search_icon {
@@ -15,7 +43,23 @@
   background-image: url(./Images/icomoon_svg/search.svg); 
   background-repeat: no-repeat;
   background-size: contain;
+
+  animation-name: search_icon;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  animation-delay: 2s;
+  animation-fill-mode: none;
 }
+
+@keyframes search_icon {
+  0% {
+    transform: rotate(0);}
+  100% {
+    transform: rotate(360deg);
+  }
+  }
 
 .header_menu_signin_icon {
   height: 25px;

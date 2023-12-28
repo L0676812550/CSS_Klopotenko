@@ -170,6 +170,11 @@ header {
   color: #cecece; /*! колір кнопки змінюється, а тексту- ні*/
 }
 
+@media screen and (max-width: 600px) {
+  .header_menu_button {
+    display: none;
+  }
+}
 @media screen and (max-width: 800px) {
   .header_left_button_ads {
     display: none;
@@ -178,12 +183,6 @@ header {
     display: none;
   }
   .header_menu_signin_link {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .header_menu_button {
     display: none;
   }
 }
