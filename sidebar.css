@@ -67,3 +67,9 @@
   padding-bottom: 15px;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}

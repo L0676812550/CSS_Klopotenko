@@ -185,11 +185,22 @@ main {
 }
 
 /* Block 1-End */
+
+.main-section2-what-to-cook {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .main-section2-what-to-cook-title {
-  border-bottom: 3px solid black;
-  margin: 75px 200px 50px 250px;
-  width: 500px;
   text-align: center;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.main-section2-title {
+  border-bottom: 3px solid black;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .main-section2-what-to-cook-title::after {
@@ -288,6 +299,30 @@ main {
   /* Grid */
   padding: 0 20px 0 0;
   text-align: center;
+}
+
+/* TODO Media */
+
+@media screen and (max-width: 600px) {
+  .main-section2-what-to-cook {
+    display: none;
+  }
+}
+@media screen and (max-width: 719px) {
+  .main-section1-block {
+    flex-direction: column;
+  }
+  .main-section-article {
+    width: 100%;
+  }
+  .main-section3-container {
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-section2-column3 {
+    display: none;
+  }
 }
 
 

@@ -49,4 +49,9 @@ nav {
   background-color: #c5181d;
   margin-bottom: 5px;
 }
-
+  
+@media screen and (max-width: 720px) {
+  nav {
+    display: none;
+  }
+}

@@ -82,3 +82,9 @@ img {
 .bordered {
   border-left: 2px;
 } */
+
+@media screen and (max-width: 1024px) {
+  .container_main_sidebar {
+    grid-template-columns: 100%;
+  }
+}
