@@ -4,16 +4,16 @@ header {
   margin: 0 auto;
 }
 
-.header_container {
+.header__container {
   padding: 16px 55px 20px 46px;  
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
-.header_left {
+.header__left {
   padding: 0;
   position: relative;
   display: flex !important;
@@ -21,46 +21,13 @@ header {
   flex-grow: 1; /*! Do I need it?*/
 }
 
-.header_left_button_ads {
-  box-sizing: inherit;
-  word-wrap: break-word;
-  padding: 7px 24px;
-  margin-left: 25px;
-  background: #116b4b;
-  border: 2px solid #116B4B;
-  letter-spacing: 1px;
-}
-
-.header_left_button_ads_title {
-  font-size: 10px;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: #116b4b;
-  color: #fff !important;
-  border: 2px solid #116B4B;
-  letter-spacing: 1px;
-}
-
-.header_left_button_ads_link {
-  size: 206px 80px;
-  vertical-align: middle;
-  transition: all 0.3s ease 0s;
-  text-decoration: none;
-}
-
-.header_left_button_ads:hover,
-.header_left_button_ads_title:hover { /*! допрацювати, щоб кнопка змінювала колір при наведенні*/
-  background-color: #c5181d;
-  border: 0;
-}
-
-.header_right {
+.header__right {
   justify-content: flex-end;
   align-items: center;
   position: relative;
 }
 
-.header-right-menu {
+.header__menu {
   display: flex !important;
   flex: 0 0 50%;
   justify-content: flex-end;
@@ -73,110 +40,75 @@ header {
   width: 100%;
   }
 
-.header-menu li {
-  display: inline-block;
-  margin: 0;
-}
-
-.header_menu_links {
-  text-decoration: none;
+.links--uppercase {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
   padding: 10px;
   color: #000;
+
+
+  /* font-size: 11px;
+  font-weight: 500;
+  padding: 3px 20px 0 2px; */
   transition: all .07s ease-in-out; /*!the color changes smoothly when hovering */
 }
 
-.header-menu li a:hover {
+.header__menu-links:hover {
   color: rgb(194, 35, 35);
   transform: scale (1.08);
-
 }
 
-.header_menu_search {
+.header__menu-item {
   display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   align-content: center;
+  align-items: center;
   width: 100%;
 }
 
-.header_menu_search-button_search {
-  font-size: 11px;
-  font-weight: 500;
-  padding: 3px 20px 0 2px;
-}
-
-.header_menu_signin_icon {
-  
-}
-
-.header_menu_lang {
+.header__menu-item-border {
   box-sizing: inherit;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   /* padding: 13px 26px; */
   margin-bottom: 5px;
   word-wrap: break-word;
-  display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
 }
 
-.header-menu-lang-lang {
-  font-size: 11px;
-  font-weight: 500;
-  width: 100%;
+.header__menu-lang-EN {
+  padding-left: 0;
 }
 
-.header-menu-lang-EN:before {
+.header__menu-lang-EN:before {
   content: "/";
   padding: 6px;
   font-size: 14px;
   font-weight: 500;
 }
 
-/* !!! CHECK */
-
-.header_menu_signin {
-  display: flex;
-  align-items:center;
-  justify-content: space-between;
-  margin-left: 15px;
-  height: 25px;
+.header__menu-item-online {
+  background-color: #fff;
+  padding: 0px 15px;
+  border: 1px solid black;
+  white-space: nowrap;
+  transition: all .3s ease-in-out;
   width: 100%;
 }
 
-.header_menu_signin_link {
-  font-size: 11px;
-  font-weight: 500;
-  padding-right: 20px;
-  color: #000 !important;
-}
-
-
-.header_menu_button-curs {
-  background-color: #fff;
-  padding: 10px 25px;
-  border: 1px solid black;
-}
-
-.header-titles {
-  font-size: 10px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 5px;
-}
-
-.header_menu_button-curs:hover {
+.header__menu-item-online:hover {
   background-color: #116B4B;
-  color: #cecece; /*! колір кнопки змінюється, а тексту- ні*/
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
-  .header_menu_button {
+  .header__menu-item-online {
     display: none;
   }
 }
 @media screen and (max-width: 800px) {
-  .header_left_button_ads {
+  .button__ads {
     display: none;
   }
   .header-vhid {

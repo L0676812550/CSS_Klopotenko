@@ -48,14 +48,15 @@
 .sidebar-recommendations-title::after {
   content: '';
   position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 90%;
+  left: calc(50% - 5px);
+  transform: rotate(45deg);
   border: solid;
-  border-width: 0 3px 3px 3px;
+  border-width: 0 3px 3px 0;
+  background-color: black;
   display: inline-block;
-  width: 0;
-  height: 0;
+  width: 10px;
+  height: 10px;
   z-index: 0;
 }
 

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="buttons.css">
   <link rel="stylesheet" href="topography.css">
   <link rel="stylesheet" href="images.css">
   <link rel="stylesheet" href="nav.css">
@@ -16,54 +17,45 @@
   <title>Євген Клопотнеко-кулинарні рецепти від Євгена Клопотнеко</title>
 
   <!--!! Маша: 
-  :root
   <link rel="preload" href="" as="image">
   Formatting Togle- аплікація, що допомагає форматувати.Ctrl+S
 
   - width: 100px; height: 100px; - чи можна задати це однією функцією, щоб не писати 2 слова?
-- як прибрати :after після h2, якщо це не завжди потрібно
--@media @keyframe - в окремому файлі, чи в кінці цього?
--@keyframe - приклади, його в header чи в img
-
   -->
 </head>
 <body>
   <header>
-    <div class="header_container">
-      <div class="header_left">
-        <a class="logo-animation" href="#">
+    <div class="header__container">
+      <div class="header__left">
+        <a class="header__logo--animation" href="#">
             <img class="logo" src="./Images/logo.svg" alt="logo">
         </a>
-        
-        <button class="header_left_button_ads" type="button">
-            <a class="header_left_button_ads_link" href="#">
-              <span class="header_left_button_ads_title">Відключити рекламу</span>
-            </a>
-          </button>
+        <a class="button button__ads" href="#">
+          <span class="button__title">Відключити рекламу</span>
+        </a>
+         
       </div>
 
-      <div class="header_right">
-        <ul class="header-right-menu">
-          <li class="header_menu_search">
-            <div class="header_menu_search_icon"></div> 
-            <a class="header_menu_links" href="#" class="header_menu_search-button_search"><span class="header-menu-search-title">ПОШУК</span></a>
+      <div class="header__right">
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <div class="header__menu-search-icon"></div> 
+            <a class="links--uppercase" href="#">пошук</a>
           </li>
           
-          <li class="header_menu_lang">
-            <a class="header_menu_links" href="#"><span class="header-menu-lang-lang">UA</span></a>
-            <a class="header_menu_links" href="#"><span class="header-menu-lang-lang header-menu-lang-EN">EN</span></a>
+          <li class="header__menu-item header__menu-item-border">
+            <a class="links--uppercase" href="#">ua</a>
+            <a class="links--uppercase header__menu-lang-EN" href="#">en</a>
           </li>
 
-          <li class="header_menu_signin">
-            <div class="header_menu_signin_icon"></div>
-            <a class="header_menu_links header_menu_signin_link"><span class="header-titles header-vhid">ВХІД</span></a>
+          <li class="header__menu-item">
+            <div class="header__menu-signin-icon"></div>
+            <a class="links--uppercase" href="#">вхід</a>
           </li>
-          <li class="header_menu_button">
-            <button class="header_menu_button-curs" type="button">
-              <a class="header_menu_links" href="#">
-                <span class="header-titles">
+
+          <li class="header__menu-item header__menu-item-online">
+              <a class="links--uppercase" href="#">
                   онлайн-курс
-                </span>
               </a>
             </button>
           </li>

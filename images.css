@@ -2,7 +2,7 @@
 
 .logo {
   height: 31px;
-  padding: 14px 0 6px 0;
+  padding: 14px 35px 6px 0;
   max-width: 100%;
   border: 0;
   vertical-align: middle;
@@ -19,7 +19,7 @@
   animation-fill-mode: none;
 }
 
-.logo-animation:hover .logo {
+.header__logo-animation:hover .logo {
   animation-play-state: paused;
 }
 
@@ -37,14 +37,14 @@
   }
 }
 
-.header_menu_search_icon {
+.header__menu-search-icon {
   width: 35px;
   height: 35px;
   background-image: url(./Images/icomoon_svg/search.svg); 
   background-repeat: no-repeat;
   background-size: contain;
 
-  animation-name: search_icon;
+  animation-name: search__icon;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: 2;
@@ -53,7 +53,7 @@
   animation-fill-mode: none;
 }
 
-@keyframes search_icon {
+@keyframes search__icon {
   0% {
     transform: rotate(0);}
   100% {
@@ -61,12 +61,13 @@
   }
   }
 
-.header_menu_signin_icon {
+.header__menu-signin-icon {
   height: 25px;
   width: 25px;
   background-image: url(./Images/icomoon_svg/cook.svg);
   background-repeat: no-repeat;
   background-size: contain;
+      margin-left: 10px;
 }
 
 /*TODO Main*/
