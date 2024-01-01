@@ -73,19 +73,14 @@ img {
   box-sizing: inherit;
 }
 
-.container_main_sidebar {
+.container__main-sidebar {
   display: grid;
   grid-template-columns: 73% 23%;
   grid-template-rows: auto;
   height: auto;
-  /* padding: 15px 25px 25px 15px; */
   width: 100%;
   margin: 0 auto;
 }
-/* 
-.bordered {
-  border-left: 2px;
-} */
 
 @media screen and (max-width: 1024px) {
   .container_main_sidebar {

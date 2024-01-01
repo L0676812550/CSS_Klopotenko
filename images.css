@@ -72,39 +72,39 @@
 
 /*TODO Main*/
 
-.main-section1-img {
+.recipe__img {
   display: block;
   max-width: 100%;
   height: auto;
   transition: transform 0.3s ease;
 }
 
-.main-section1-img:hover {
+.recipe__img:hover {
 transform: scale(1.1);
 }
 
-.main-section1-content-time-icon {
+.recipe__icon {
   object-fit: contain;
   width: 25px;
   height: 25px;
   color: #909090;
 }
 
-.main-section1-content-time-icon-clock {
+.recipe__icon-clock {
   background-image: url(./Images/icomoon_svg/wall-clock-icon.svg);
   width: 25px;
   height: 25px;
   margin-left: 10px;
 }
 
-.main-section1-content-time-icon-food {
+.recipe__icon-food {
   background-image: url(./Images/icomoon_svg/pie-dish-food-icon.svg);
   width: 25px;
   height: 25px;
   border left: ;
 }
 
-.main-section1-content-time-icon-star {
+.recipe__icon-star {
   background-image: url(./Images/icomoon_svg/food.svg);
   width: 25px;
   height: 25px;
