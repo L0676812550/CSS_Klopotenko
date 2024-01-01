@@ -1,6 +1,6 @@
 /* Block3 */
 
-.main-section3-link {
+.buy-now__link {
   text-decoration: none;
   color: black;
   font-size: 18px;
@@ -10,7 +10,7 @@
   padding-top: 15px;
 }
 
-.main-section3-price {
+.buy-now__price {
   color: #C5181D;
   font-size: 16px;
   font-weight: 600;
