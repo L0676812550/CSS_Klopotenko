@@ -179,13 +179,13 @@ transform: scale(1.1);
 
 /*TODO Sidebar */
 
-.sidebar-book-pic {
+.book_img {
   width: 100%;
   height: auto;
   padding: 20px 20px 0 0;
 }
 
-.sidebar-recommendations-1-img {
+.recommendations__img {
   width: 125px;
   display: inline-block;
   box-sizing: border-box;
