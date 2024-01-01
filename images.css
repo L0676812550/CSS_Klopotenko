@@ -10,7 +10,7 @@
 
   position: relative;
 
-  animation-name: main-logo;
+  animation-name: main__logo;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: 2;
@@ -23,7 +23,7 @@
   animation-play-state: paused;
 }
 
-@keyframes main-logo {
+@keyframes main__logo {
   0% {
     left: 0;
     opacity: 1;
@@ -195,12 +195,12 @@ transform: scale(1.1);
 
 /*TODO Footer */
 
-.footer-social-links-img {
+.social__img {
   width: 30px;
   height: 30px;
 }
 
-.footer-logo-curcle {
+.logo__curcle {
   max-width: 120px;
   padding-bottom: 20px;
   height: auto;

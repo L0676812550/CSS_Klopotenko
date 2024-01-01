@@ -8,19 +8,19 @@ footer {
   margin: 0 auto;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   /* flex-direction: row; */
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   align-items: stretch;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 50px auto;
   width: 100%;
 }
 
-.footer-col-container {
+.footer__col-container {
   width: 100%;
   margin: 20px 0;
   display: flex;
@@ -31,7 +31,7 @@ footer {
   align-items: center;
 }
 
-.footer-col-part {
+.footer__col-item {
   display: flex;
   /* flex: 0 calc((100% -40px) / 2); */
   justify-content: space-around;
@@ -43,7 +43,7 @@ footer {
   margin: 0 auto;
 }
 
-.footer-col {
+.footer__col {
   display: flex;
   flex-direction: column;
   /* flex-wrap: nowrap; */
@@ -53,15 +53,11 @@ footer {
   width: 100%;
 }
 
-/* .footer-col {
-  flex: 0 0 calc((100% - 80px) / 4); /* 80px - сума лівого та правого margin */
-  /* margin: 0 10px; /* margin для збереження відстані між .footer-col */
-
-.footer-social-links-container {
+.social__container {
   max-width: 100%;
 }
 
-.footer-social-links-list {
+.social__list {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -71,15 +67,15 @@ footer {
   padding-left: 0;
 }
 
-.footer-copyright-link {
-  text-decoration: underline;
-}
-
-.footer-social-links-item {
+.social__item {
   padding: 10px 20px;
 }
 
-.footer-link-list {
+.copyright__link {
+  text-decoration: underline;
+}
+
+.link__list {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -90,49 +86,40 @@ footer {
   padding: 0;
 }
 
-.footer-link-list-item {
+.link__item {
   padding: 8px 0;
 }
 
-.footer-logo {
-  height: 30px;
+.footer__logo {
+  height: 25px;
   max-width: 100%;
   margin-bottom: 20px;
 }
 
-.footer-button {
-  width: 150px;
-  height: auto;
-  background-color: rgb(17, 107, 75);
-  text-align: center;
-  padding: 10px 25px;
-}
-
-.footer-copyright {
+.copyright__container {
   width: 100%;
   margin-bottom: 65px;
-  overflow-wrap: break-word;
 }
 
 @media screen and (max-width: 420px) {
-  .footer-col-part {
+  .footer__col-item {
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 600px) {
-  .footer-logo {
+  .footer__logo {
     display: none;
   }
-  .footer-logo-curcle {
+  .logo__curcle {
     display: none;
   }
 }
 @media screen and (max-width: 890px) {
-  .footer-col-container {
+  .footer__col-container {
     flex-direction: column; /* Змінюємо напрямок стовпчика на вертикальний */
   }
 
-  .footer-col-part {
+  .footer__col-item {
     width: 100%; /* Займає повну ширину екрану при вертикальному розташуванні */
   }
 }

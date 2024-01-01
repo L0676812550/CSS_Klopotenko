@@ -61,7 +61,7 @@
 
 /*Footer */
 
-.footer-link {
+.footer__link {
   font-size: 14px;
   font-weight: 500;
   line-height: 40px;
@@ -79,21 +79,22 @@
   color: white;
 }
 
-.copyright1{
+/* .copyright1{
   font-size: 12px;
   font-weight: 500;
   line-height: 25px;
   text-align: center;
-}
+} */
 
-.footer-copyright-link {
+.copyright__link {
   text-decoration: underline;
   padding: 10px 0;
 }
 
-.footer-copyright {
+.copyright {
   font-size: 12px;
   font-weight: 500;
   line-height: 25px;
   text-align: center;
+  margin: 0;
 }
