@@ -1,3 +1,51 @@
+/*Main*/
+.title {
+  font-size: 29px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 35px;
+  color: #111111;
+  margin-bottom: 0px;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  padding: 16px;
+
+  .title::after {
+    content: '';
+    border-bottom: 6px solid rgba(197, 24, 29, 0.6);
+    width: 93%;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+  }
+
+  .title--red-none {
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+      
+    .title--red-none::after {
+      display: none;
+    }
+  }
+  
+  .title--underline {
+    border-bottom: 3px solid black;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.recipe__icon-title {
+  color: rgb(144, 144, 144);
+  font-size: 12px;
+  font-weight: 300;
+  word-wrap: break-word;
+  padding-left: 10px;
+}
+
 /* Block3 */
 
 .buy-now__link {

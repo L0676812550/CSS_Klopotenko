@@ -4,18 +4,19 @@
 @import './utils/variables';
 
 @import './utils/utils';
-@import './utils/keyframes';
-@import './utils/media';
 @import './utils/topography';
-
-@import './components/buttons';
-@import './components/img';
-@import './components/links';
 
 @import './components/header';
 @import './components/nav';
 @import './components/main';
 @import './components/sidebar';
 @import './components/footer';
+
+@import './components/buttons';
+@import './components/img';
+@import './components/links';
+
+@import './utils/keyframes';
+@import './utils/media';
 
 

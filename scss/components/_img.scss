@@ -25,10 +25,9 @@
 .header__menu-search-icon {
   width: 35px;
   height: 35px;
-  background-image: url(./Images/icomoon_svg/search.svg); 
+  background-image: url(/Images/icomoon_svg/search.svg); 
   background-repeat: no-repeat;
   background-size: contain;
-
   animation-name: search__icon;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -41,7 +40,7 @@
 .header__menu-signin-icon {
   height: 25px;
   width: 25px;
-  background-image: url(./Images/icomoon_svg/cook.svg);
+  background-image: url(/Images/icomoon_svg/cook.svg);
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: 10px;
@@ -68,21 +67,21 @@ transform: scale(1.1);
 }
 
 .recipe__icon-clock {
-  background-image: url(./Images/icomoon_svg/wall-clock-icon.svg);
+  background-image: url(/Images/icomoon_svg/wall-clock-icon.svg);
   width: 25px;
   height: 25px;
   margin-left: 10px;
 }
 
 .recipe__icon-food {
-  background-image: url(./Images/icomoon_svg/pie-dish-food-icon.svg);
+  background-image: url(/Images/icomoon_svg/pie-dish-food-icon.svg);
   width: 25px;
   height: 25px;
-  border left: ;
+  border-left: 10px;
 }
 
 .recipe__icon-star {
-  background-image: url(./Images/icomoon_svg/food.svg);
+  background-image: url(/Images/icomoon_svg/food.svg);
   width: 25px;
   height: 25px;
 }
@@ -90,7 +89,7 @@ transform: scale(1.1);
 /* Block2 */
 
 .what-to-cook__img1 {
-  background-image: url(./Images/icons/small/salad-1.svg);
+  background-image: url(/Images/icons/small/salad-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
@@ -98,7 +97,7 @@ transform: scale(1.1);
 }
 
 .what-to-cook__img2 {
-  background-image: url(./Images/icons/small/second-1.svg);
+  background-image: url(/Images/icons/small/second-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
@@ -106,7 +105,7 @@ transform: scale(1.1);
 }
 
 .what-to-cook__img3 {
-  background-image: url(./Images/icons/small/group.svg);
+  background-image: url(/Images/icons/small/group.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
@@ -114,7 +113,7 @@ transform: scale(1.1);
 }
 
 .what-to-cook__img4 {
-  background-image: url(./Images/icons/small/ukrainian-1.svg);
+  background-image: url(/Images/icons/small/ukrainian-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
@@ -122,7 +121,7 @@ transform: scale(1.1);
 }
 
 .what-to-cook__img5 {
-  background-image: url(./Images/icons/small/lunch-1.svg);
+  background-image: url(/Images/icons/small/lunch-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
@@ -130,7 +129,7 @@ transform: scale(1.1);
 }
 
 .what-to-cook__img6 {
-  background-image: url(./Images/icons/small/bakery-1.svg);
+  background-image: url(/Images/icons/small/bakery-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 50px;
@@ -144,7 +143,7 @@ transform: scale(1.1);
 .buy-now__img3,
 .buy-now__img4,
 .buy-now__img5,
-.buy-now__img6, {
+.buy-now__img6 {
   max-width: 100%; /* Зменшити розмір відповідно до ширини батьківського контейнера */
   height: auto; /* Забезпечити пропорції */
 }

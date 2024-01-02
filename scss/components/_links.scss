@@ -5,12 +5,13 @@
   padding: 10px;
   color: #000;
   transition: all .07s ease-in-out; /*!the color changes smoothly when hovering */
+
+  .links--uppercase:hover {
+    color: #c5181d;
+    transform: scale (1.08);
+  }
 }
 
-.links--uppercase:hover {
-  color: #c5181d;
-  transform: scale (1.08);
-}
 
 .link--indentation { 
   padding-left: 0px;
