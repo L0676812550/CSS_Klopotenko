@@ -71,25 +71,6 @@ footer {
   padding: 10px 20px;
 }
 
-.copyright__link {
-  text-decoration: underline;
-}
-
-.link__list {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-.link__item {
-  padding: 8px 0;
-}
-
 .footer__logo {
   height: 25px;
   max-width: 100%;

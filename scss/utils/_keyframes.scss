@@ -1,0 +1,21 @@
+@keyframes main__logo {
+  0% {
+    left: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    left: 100px;
+    opacity: 1;
+  }
+}
+
+@keyframes search__icon {
+  0% {
+    transform: rotate(0);}
+  100% {
+    transform: rotate(360deg);
+  }
+}

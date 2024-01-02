@@ -1,0 +1,81 @@
+/*header*/ 
+@media screen and (max-width: 600px) {
+  .header__menu-item-online {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .button__ads {
+    display: none;
+  }
+  .header__menu-signin {
+    display: none;
+  }
+}
+
+/*nav*/ 
+@media screen and (max-width: 720px) {
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container_main_sidebar {
+    grid-template-columns: 100%;
+  }
+}
+
+/*main*/ 
+@media screen and (max-width: 600px) {
+  .main__what-to-cook {
+    display: none;
+  }
+}
+@media screen and (max-width: 719px) {
+  .recipe {
+    flex-direction: column;
+  }
+  .recipe_item {
+    width: 100%;
+  }
+  .buy-now {
+    display: block;
+  }
+}
+@media screen and (max-width: 900px) {
+  .column--hide {
+    display: none;
+  }
+}
+
+/*sidebar*/ 
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/*footer*/
+@media screen and (max-width: 420px) {
+  .footer__col-item {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer__logo {
+    display: none;
+  }
+  .logo__curcle {
+    display: none;
+  }
+}
+@media screen and (max-width: 890px) {
+  .footer__col-container {
+    flex-direction: column; /* Змінюємо напрямок стовпчика на вертикальний */
+  }
+
+  .footer__col-item {
+    width: 100%; /* Займає повну ширину екрану при вертикальному розташуванні */
+  }
+} 

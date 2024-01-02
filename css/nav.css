@@ -10,9 +10,7 @@ nav {
   width: 865px;
 }
 
-.link--indentation { 
-  padding-left: 0px;
-} /*!why doesn't work?*/
+
 
 .strip {
   display: block;

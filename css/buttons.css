@@ -1,0 +1,22 @@
+.button {
+  height: auto;
+  background-color: rgb(17, 107, 75);
+  text-align: center;
+  padding: 12px 22px;
+}
+
+.button__title {
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #116b4b;
+  color: #fff !important;
+  border: 2px solid #116B4B;
+  letter-spacing: 1px;
+}
+
+.button:hover,
+.button__title:hover { /*! допрацювати, щоб кнопка змінювала колір при наведенні*/
+  background-color: #c5181d;
+  border: 0;
+}
