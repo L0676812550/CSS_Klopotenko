@@ -37,6 +37,7 @@
   width: 10px;
   height: 10px;
   z-index: 0;
+  transform: translateZ(-1px) rotate(45deg);
 }
 
 .recommendations__container {
