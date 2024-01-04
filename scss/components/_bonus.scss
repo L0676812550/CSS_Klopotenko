@@ -7,10 +7,13 @@
     background-color: $bonusContainerBackgroundColor;
     width: 1400px;
     height: 95px;
-    top: 140%;
-    left: -59%;
-    transform: translateX(-50%);
+    top: 50px;
+    left: 1.5%;
+    // transform: translateX(-50%);
     animation: fadeInDown $animationDuration ease-out;
+    &:hover {
+      display: inline-block;
+    }
   }
 
   &__title {
@@ -36,7 +39,7 @@
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    transform: translateY(-10px);
+    transform: translateY(-50px);
   }
   to {
     opacity: 1;
