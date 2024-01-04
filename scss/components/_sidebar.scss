@@ -29,14 +29,12 @@
   position: absolute;
   top: 90%;
   left: calc(50% - 5px);
-  transform: rotate(45deg);
   border: solid;
   border-width: 0 3px 3px 0;
   background-color: black;
   display: inline-block;
   width: 10px;
   height: 10px;
-  z-index: 0;
   transform: translateZ(-1px) rotate(45deg);
 }
 

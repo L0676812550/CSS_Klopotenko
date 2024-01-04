@@ -13,10 +13,6 @@
     animation: fadeInDown $animationDuration ease-out;
   }
 
-  &:hover &__container {
-    display: inline-block;
-  }
-
   &__title {
     display: flex;
     justify-content: center;
@@ -25,6 +21,14 @@
     font-weight: 600;
     color: $bonusTitleColor;
     text-transform: uppercase;
+  }
+}
+
+.bonus-menu-item {
+  &:hover {
+    .bonus__container {
+      display: inline-block;
+    }
   }
 }
 

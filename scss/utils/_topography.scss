@@ -89,6 +89,8 @@
   overflow: visible;
   position: relative;
   z-index: 1;
+  transform-style: preserve-3d;
+  background-color: white;
 }
 
 .recommendations__link {
